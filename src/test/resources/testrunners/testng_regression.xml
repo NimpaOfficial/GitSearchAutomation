@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HubSpot Test Automation Regression" thread-count="3"
+	parallel="tests" verbose="1">
+
+	<listeners>
+		<listener class-name="com.listeners.ExtentReportListener" /> 
+
+	</listeners>
+
+	<!--<test name="Welcome Page Test-FF">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.test.WelcomePageTest" />
+		</classes>
+	</test>
+
+	 <test name = "Welcome Page Test"> <parameter name="browser" value="chrome" 
+		/> <classes> <class name = "com.test.WelcomePageTest" /> </classes> 
+		</test> -->
+		
+		<test name = "Search Page Test"> <parameter name="browser" value="chrome" 
+		/> <classes> <class name = "com.test.SearchPageTest" /> </classes> 
+		</test> 
+		
+
+</suite>  
+
