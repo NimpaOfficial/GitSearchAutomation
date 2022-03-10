@@ -32,7 +32,7 @@ public class SearchPageTest extends BaseTest{
 	@Test(priority=3)
 	public void navigateToRepo(){
 	String repositoryName=searchPage.clickOnRepo();
-	if(repositoryName.contains("HubSpot POM Hybrid Framework")) {
+	if(repositoryName.contains("GitSearchAutomation")) {
 		Assert.assertTrue(true);
 	}
 	else

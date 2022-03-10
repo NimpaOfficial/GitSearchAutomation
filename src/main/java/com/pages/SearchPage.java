@@ -14,7 +14,7 @@ public class SearchPage extends BasePage{
 	//By Locator-OR
 	private By header=By.tagName("h3");
 	private By repoUrl=By.xpath("//a[text()='NimpaOfficial/']");
-	private By repository=By.xpath("(//div//p)[1]");
+	private By repository=By.xpath("(//div//p[contains(text(),'GitSearchAutomationFramework')])[2]");
 	
 	public SearchPage(WebDriver driver){
 		elementUtil=new ElementUtil(driver);
